@@ -25,7 +25,7 @@ public class CARRILLO_CABALLERO_ANA_PROG06 {
      */
      
     public static void main(String[] args) {
-        escribeMensaje("Introduce el número de jugadores ");
+        escribeMensaje("Introduce el número de jugadores");
         int numJugadores = leerEnteroDeTeclado(); // leemos el número de jugadores por teclado
         String[] nombresJugadores = obtenerJugadores(numJugadores); // Pedimos el nombre de jugadores por teclado
         int[] ordenJugadores = generarOrdenAleatorioDeJugadores(numJugadores); // Generamos el orden aleatorio para los jugadores
